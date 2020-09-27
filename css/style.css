@@ -11,6 +11,9 @@ hr{
     border:0;
     padding-bottom: 5px;
 }
+a {
+    color: #8D9EBE;
+}
 .btncon{
     height: 10%;
     width: 100%;
@@ -95,7 +98,6 @@ hr{
 .herocontainer{
     text-align: center;
     display: inline-block;
-   
     align-content: center;
     height: 100%;
     width: 30%;
@@ -129,6 +131,7 @@ hr{
     height: 100%;
     text-align: center;
     padding: 12px 15px;
+    color: #24498b;
 }
 .headercontent:hover{
     cursor: pointer;
