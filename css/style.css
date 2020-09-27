@@ -23,6 +23,10 @@ hr{
     color: white;
     padding: 5px 40px;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color:#657fad;
+}
 .center{
     margin: auto;
 }
@@ -125,6 +129,10 @@ hr{
     height: 100%;
     text-align: center;
     padding: 12px 15px;
+}
+.headercontent:hover{
+    cursor: pointer;
+    color: #657fad;
 }
 .slidecontainer{
     object-fit: contain;
