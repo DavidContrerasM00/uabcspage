@@ -3,7 +3,6 @@ body{
     margin:0;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 hr{
     height: 1px;
@@ -175,4 +174,5 @@ a {
 }
 *{
     box-sizing: border-box;
+    background-color: white;
 }
