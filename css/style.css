@@ -43,7 +43,7 @@ a {
     padding: 10px;
     width: 70%;
     margin: auto;
-    align-content: flex-end;
+    display: flex;
     
 }
 .containerfooter{
@@ -99,7 +99,6 @@ a {
     text-align: center;
     display: inline-block;
     align-content: center;
-    height: 100%;
     width: 30%;
     margin: 0px 15px;
     margin-bottom: 20px;
@@ -174,4 +173,35 @@ a {
 }
 *{
     box-sizing: border-box;
+}
+@media screen and (max-width:1024px){
+    .containerherocontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .herocontainer{
+        flex-direction: column;
+        display: flex;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .imghero{
+        display: flex;
+    }
+    .headericons{
+        flex-direction: row;
+        padding-left: 70%;
+    }
+    .logocontainer{
+        display: flex;
+        padding-left: 20%;
+    }
+    .containerform{
+        width: 90%;
+    }
+    .btncon{
+        text-align: center;
+    }
+
 }
